@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Testapi from "@/views/Testapi";
 
+
 const routes = [
   {
     path: '/',
@@ -13,6 +14,7 @@ const routes = [
     name: 'test-api',
     component: Testapi
   },
+
 
 ]
 
