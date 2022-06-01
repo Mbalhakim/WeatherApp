@@ -1,4 +1,6 @@
-# weatherapi
+# weatherapp
+### Weather app that dispays weather status adn a forecast results per hour, sports and news on selected country adn category 
+
 
 ## Project setup
 ```
