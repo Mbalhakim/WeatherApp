@@ -2,7 +2,7 @@
 
   <!--  Preventing the default action of the form, which is to reload the page
    and listening for a submit event and then calling the axiosEmitRequest method.-->
-  <form @submit.prevent="axiosEmitRequest" class="pt-2 relative lg:w-3/12 md:w-6/12 sm:w-9/12 mx-auto text-gray-600 ">
+  <form @submit.prevent="axiosEmitRequest" class="pt-2 relative lg:w-4/12 md:w-6/12 sm:w-9/12 mx-auto text-gray-600 ">
 
     <input class="shadow appearance-none border
                     text-center
