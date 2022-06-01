@@ -2,8 +2,13 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import mitt from 'mitt'
-const emitter = mitt()
-const app = createApp(App)
-app.config.globalProperties.emitter = emitter
-createApp(App).use(store).use(router).mount('#app')
+import Vue3Geolocation from 'vue3-geolocation';
+import  VueGoogleMaps  from '@fawmi/vue-google-maps'
+
+
+createApp(App).use(store).use(Vue3Geolocation).use(VueGoogleMaps, {
+    load:{
+        key:''
+    },
+
+}).use(router).mount('#app')

@@ -967,6 +967,18 @@
     "minimatch" "^3.0.4"
     "strip-json-comments" "^3.1.1"
 
+"@fawmi/vue-google-maps@^0.9.67":
+  "integrity" "sha512-Ji9SiQIdg8mRLAyp0B9P3dU6EUptdrU4hDgkvelpNpWWmtEtj/bGgQvrZlJUBEBRUQhPDnkduIdKnXAvSV57Pg=="
+  "resolved" "https://registry.npmjs.org/@fawmi/vue-google-maps/-/vue-google-maps-0.9.67.tgz"
+  "version" "0.9.67"
+  dependencies:
+    "@googlemaps/markerclustererplus" "^1.2.10"
+
+"@googlemaps/markerclustererplus@^1.2.10":
+  "integrity" "sha512-HY4ev+D3kO1+9oQjtKTojxVtJIS/kSWJfry6cpKoXC97kBQc5Vguqu5x6pLnh+70N0Au+16Yl7iu4LZaIOTstw=="
+  "resolved" "https://registry.npmjs.org/@googlemaps/markerclustererplus/-/markerclustererplus-1.2.10.tgz"
+  "version" "1.2.10"
+
 "@hapi/hoek@^9.0.0":
   "integrity" "sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ=="
   "resolved" "https://registry.npmmirror.com/@hapi/hoek/-/hoek-9.3.0.tgz"
@@ -1271,6 +1283,11 @@
   "version" "8.5.3"
   dependencies:
     "@types/node" "*"
+
+"@vue-leaflet/vue-leaflet@^0.6.1":
+  "integrity" "sha512-/sm0bdrdftXh5nSGEPsoKrJI1D/GtKiEsBo9X/TA2yu4lYTDcaem6U4t1Ea5CoLleiZRCNUrZr9PG/xHdUPXYA=="
+  "resolved" "https://registry.npmjs.org/@vue-leaflet/vue-leaflet/-/vue-leaflet-0.6.1.tgz"
+  "version" "0.6.1"
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
   "integrity" "sha512-QOi5OW45e2R20VygMSNhyQHvpdUwQZqGPc748JLGCYEy+yp8fNFNdbNIGAgZmi9e+2JHPd6i6idRuqivyicIkA=="
@@ -6050,6 +6067,16 @@
     "@vue/runtime-dom" "3.2.34"
     "@vue/server-renderer" "3.2.34"
     "@vue/shared" "3.2.34"
+
+"vue2-leaflet@^2.7.1":
+  "integrity" "sha512-K7HOlzRhjt3Z7+IvTqEavIBRbmCwSZSCVUlz9u4Rc+3xGCLsHKz4TAL4diAmfHElCQdPPVdZdJk8wPUt2fu6WQ=="
+  "resolved" "https://registry.npmjs.org/vue2-leaflet/-/vue2-leaflet-2.7.1.tgz"
+  "version" "2.7.1"
+
+"vue3-geolocation@^1.0.0":
+  "integrity" "sha512-6zZkFH0aRVwmY7z7YkaA4riLy5sI6dRW1NiMZMI8NtjcFxC39UF4c9huxVnpN3yQSJYAsHAWzqIc75RdNBujnQ=="
+  "resolved" "https://registry.npmjs.org/vue3-geolocation/-/vue3-geolocation-1.0.0.tgz"
+  "version" "1.0.0"
 
 "vuex@^4.0.0":
   "integrity" "sha512-M6r8uxELjZIK8kTKDGgZTYX/ahzblnzC4isU1tpmEuOIIKmV+TRdc+H4s8ds2NuZ7wpUTdGRzJRtoj+lI+pc0Q=="

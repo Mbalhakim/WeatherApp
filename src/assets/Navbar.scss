@@ -60,6 +60,7 @@ li {
 
   padding: 1em 0;
   position: absolute;
+
   display: none;
   border-radius: 8px;
   top: 50px;
@@ -103,6 +104,7 @@ input[type=checkbox]{
   .menu {
     display: none;
     position: absolute;
+    z-index: 1;
     background-color: #00203FFF;
     right: 0;
     left: 0;

@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind forms;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+body {
+    font-family: Raleway, serif;
+    font-weight: 300;
+}
+h1 {
+    font-weight: bold;
+}
+
+#homeContainer{
+    background: url(../assets/bgWep.png) no-repeat 50% 40% / cover
+}
+#newsContainer{
+    background: url(../assets/bgWep.png) no-repeat 50% 40% / cover
+}
+
+

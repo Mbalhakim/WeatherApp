@@ -1,25 +1,26 @@
 <template>
   <nav class="navbar">
-    <div class="logo">WeatherApp</div>
+    <div class="logo">
+      <router-link :to="{name: 'home'}">WeatherApp</router-link>
+    </div>
     <ul class="nav-links">
       <input type="checkbox" id="checkbox_toggle">
       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
       <div class="menu">
-        <li><a href="/">Home</a></li>
-        <li><router-link to="test"><a href="/">Test</a></router-link></li>
-        <li class="services">
-          <a href="/">Services</a>
-
-          <ul class="dropdown">
-            <li><a href="/first">First</a></li>
-            <li><a href="/first">Second</a></li>
-            <li><a href="/">About 3</a></li>
-            <li><a href="/">About 4</a></li>
-            <li><a href="/">About 5</a></li>
-          </ul>
+        <li>
+          <router-link :to="{name: 'home'}">Home</router-link>
         </li>
-        <li><a href="/">Pricing</a></li>
-        <li><a href="/">Contact</a></li>
+
+
+        <li>
+          <router-link :to="{name: 'news'}">News</router-link>
+        </li>
+
+        <li>
+          <router-link :to="{name: 'sports'}">sports</router-link>
+        </li>
+
+
       </div>
     </ul>
   </nav>
@@ -28,10 +29,11 @@
 <script>
 
 export default {
-  name: "NavBar"
+  name: "NavBar",
+
 }
 </script>
 
 <style>
-@import '../assets/Navbar.scss'
+@import '../assets/Navbar.scss';
 </style>
